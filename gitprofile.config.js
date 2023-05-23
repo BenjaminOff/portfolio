@@ -2,50 +2,66 @@
 
 const config = {
   github: {
-    username: 'BenjaminOff', // Your GitHub org/user name. (Required)
+    username: 'arifszn', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: true, // Forked projects will not be displayed if set to true.
+      forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: '',
-    twitter: 'kunio_bg',
-    mastodon: '',
+    linkedin: 'ariful-alam',
+    twitter: 'arif_szn',
+    mastodon: 'arifszn@mastodon.social',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
     medium: 'arifszn',
-    dev: 'BenjaminOff',
+    dev: 'arifszn',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https:/kunioweb.site',
+    website: 'https://arifszn.com',
     phone: '',
-    email: 'contact@kunioweb.site',
+    email: 'arifulalamszn@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://kunioweb.site', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'PHP',
+    'Laravel',
     'JavaScript',
+    'React.js',
     'Node.js',
+    'Nest.js',
     'MySQL',
+    'PostgreSQL',
+    'Git',
+    'Docker',
+    'PHPUnit',
     'CSS',
+    'Antd',
+    'Tailwind',
   ],
   experiences: [
     {
-      company: 'DigiBlack',
-      position: 'Paris',
-      from: 'September 2022',
+      company: 'Company Name',
+      position: 'Position',
+      from: 'September 2021',
       to: 'Present',
-      companyLink: 'https://kunioweb.site/namnosis',
+      companyLink: 'https://example.com',
     },
-  
+    {
+      company: 'Company Name',
+      position: 'Position',
+      from: 'July 2019',
+      to: 'August 2021',
+      companyLink: 'https://example.com',
+    },
   ],
   /* certifications: [
     {
@@ -57,28 +73,37 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Lycée Hector Berlioz',
-      degree: '3PM',
-      from: '2021',
-      to: '2022',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2015',
+      to: '2019',
     },
     {
-      institution: 'Lycée Hector Berlioz',
-      degree: '2MRC (Métier Du Commerce Et De La Vente',
-      from: '2022',
-      to: '2023',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2012',
+      to: '2014',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'HypnoseBot',
+      title: 'Project Name',
       description:
-        'Gamme de robot discord.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+    },
+    {
+      title: 'Project Name',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
     },
   ],
-    // Display blog posts from your medium or dev account. (Optional)
+  // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
@@ -92,7 +117,6 @@ const config = {
     id: '',
     snippetVersion: 6,
   },
-}
   themeConfig: {
     defaultTheme: 'winter',
 
@@ -153,6 +177,12 @@ const config = {
     },
   },
 
- 
+  // Optional Footer. Supports plain text or HTML.
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      target="_blank"
+      rel="noreferrer"
+    >GitProfile</a> and ❤️`,
+};
 
 export default config;
