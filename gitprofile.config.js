@@ -77,7 +77,7 @@ const config = {
       description:
         'Gamme de robot discord.',
     },
-
+  ]
   themeConfig: {
     defaultTheme: 'winter',
 
