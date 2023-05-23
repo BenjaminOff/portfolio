@@ -179,10 +179,10 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made by <a 
-      class="text-primary" href="https://github.com/BenjaminOff/"
+      class="text-primary" href="https://github.com/BenjaminOff"
       target="_blank"
       rel="noreferrer"
-    >Benjamin C</a>`,
+    >BenjaminOff</a> `,
 };
 
 export default config;
