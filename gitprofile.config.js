@@ -11,7 +11,6 @@ const config = {
     },
   },
   social: {
- 
     twitter: 'kunio_bg',
     mastodon: 'benjamin@kunioweb.site',
     dev: 'benjaminoff',
